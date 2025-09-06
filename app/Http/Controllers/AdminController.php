@@ -24,7 +24,7 @@ class AdminController extends Controller
 
     public function indexStudents()
     {
-        return Student::orderBy('class_name')->orderBy('name')->get();
+        return Student::orderBy('id')->orderBy('class_name')->get();
     }
 
     public function storeTeacher(Request $request)
@@ -48,7 +48,7 @@ class AdminController extends Controller
     public function indexTeachers()
     {
         return User::where('role', 'teacher')
-            ->orderBy('name')
+            ->orderBy('id')
             ->get(['id','name','email','role']);
     }
 }
