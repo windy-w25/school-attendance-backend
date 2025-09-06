@@ -32,10 +32,9 @@ php artisan key:generate
 3) Run migrations & seeders:
 php artisan migrate --seed
 
-### This seeds two users:
+This seeds two users:
 
 Admin: admin@school.com / password
-
 Teacher: teacher@school.com / password
 
 4) Start server: php artisan serve
