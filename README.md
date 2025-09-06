@@ -1,22 +1,22 @@
-## School Attendance System
+# School Attendance System
 
 A simple Laravel 12 + React  project for managing student attendance.
 Supports Admin and Teacher roles.
 
 ## Features
 
-# Admin
+### Admin
 Register students
 Register teachers
 View Student Report (daily records + summary)
 View Class Monthly Report
 
-# Teacher
+### Teacher
 Mark daily attendance for a class
 View Student Report (daily records + summary)
 View Class Monthly Report
 
-### Backend Setup (Laravel 12)
+## Backend Setup (Laravel 12)
 
 1) Clone the repo & install dependencies:
 composer install
@@ -40,7 +40,7 @@ Teacher: teacher@school.com / password
 
 4) Start server: php artisan serve
 
-### Frontend Setup (React)
+## Frontend Setup (React)
 
 1) Go into frontend folder:
 cd school-attendance-web
@@ -52,14 +52,14 @@ npm install
 App runs at: http://127.0.0.1:5173
 
 ## Usage
-# Admin Dashboard
+### Admin Dashboard
 
 Manage Students → Add/list students
 Manage Teachers → Add/list teachers
 Student Report → Enter student ID → view daily attendance + summary
 Class Report → Enter class name + month → view class attendance summary
 
-# Teacher Dashboard
+### Teacher Dashboard
 
 Mark Attendance → Select class, pick date, mark present/absent → save
 Student Report → Enter student ID → view daily attendance + summary
