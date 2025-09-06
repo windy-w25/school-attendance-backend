@@ -24,21 +24,23 @@ cp .env.example .env
 php artisan key:generate
 
 2) Configure .env for database:
-DB_CONNECTION=mysql
-DB_DATABASE=school_attendance
-DB_USERNAME=root
-DB_PASSWORD=
+    DB_CONNECTION=mysql
+    DB_DATABASE=school_attendance
+    DB_USERNAME=root
+    DB_PASSWORD=
 
 3) Run migrations & seeders:
 php artisan migrate --seed
 
-## This seeds two users:
+### This seeds two users:
 
 Admin: admin@school.com / password
 
 Teacher: teacher@school.com / password
 
 4) Start server: php artisan serve
+
+
 
 ## Frontend Setup (React)
 
