@@ -6,7 +6,7 @@ Supports Admin and Teacher roles.
 ## Features
 
 ### Admin
-Register students
+Register students <br>
 Register teachers
 View Student Report (daily records + summary)
 View Class Monthly Report
